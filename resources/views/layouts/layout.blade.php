@@ -219,8 +219,8 @@
     <!-- Floating Action Buttons -->
     <div class="fixed bottom-6 right-6 z-[90] flex flex-col gap-4 items-end pointer-events-none">
         <!-- Back to Top Button -->
-        <button id="back-to-top" class="w-12 h-12 flex items-center justify-center rounded-full bg-accent text-white shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-[#035ab2] hover:shadow-xl focus:outline-none animate-bounce" aria-label="Back to top">
-            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <button id="back-to-top" class="w-14 h-14 flex items-center justify-center rounded-full bg-accent text-white shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-[#035ab2] hover:shadow-xl focus:outline-none animate-bounce" aria-label="Back to top">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
             </svg>
         </button>
