@@ -133,6 +133,7 @@
 /* Fix dropdown menu and mobile menu text — must be visible (white bg dropdown) */
 #main-nav:not(.nav-scrolled) div.absolute a,
 #main-nav:not(.nav-scrolled) #mobile-menu a,
+#main-nav:not(.nav-scrolled) #mobile-menu button,
 #main-nav:not(.nav-scrolled) #mobile-menu span {
   color: #475569 !important;
 }

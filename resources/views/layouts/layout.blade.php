@@ -103,22 +103,32 @@
             <a href="/" class="text-lg font-medium text-slate-700 hover:text-accent">Home</a>
             
             <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold uppercase tracking-widest text-slate-400">About Us</span>
-                <a href="/about-gcomm" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; About Gcomm</a>
-                <a href="/our-experts-behind-the-success" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Our Experts Behind the Success</a>
-                <a href="/corporate-values" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Corporate Values</a>
-                <a href="/our-company-profile" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Our Company Profile</a>
-                <a href="/trusted-brands" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Trusted Brands</a>
+                <button onclick="toggleMobileDropdown('mobile-about')" class="flex items-center justify-between text-lg font-medium text-slate-700 hover:text-accent w-full text-left">
+                    About Us
+                    <svg id="icon-mobile-about" class="w-4 h-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                <div id="mobile-about" class="hidden flex-col gap-2 mt-2">
+                    <a href="/about-gcomm" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; About Gcomm</a>
+                    <a href="/our-experts-behind-the-success" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Our Experts Behind the Success</a>
+                    <a href="/corporate-values" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Corporate Values</a>
+                    <a href="/our-company-profile" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Our Company Profile</a>
+                    <a href="/trusted-brands" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Trusted Brands</a>
+                </div>
             </div>
 
             <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold uppercase tracking-widest text-slate-400">Services</span>
-                <a href="/public-relations" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Public Relations</a>
-                <a href="/social-media-management" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Social Media Management</a>
-                <a href="/event-organizer" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Event Organizer</a>
-                <a href="/crisis-management" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Crisis Management</a>
-                <a href="/web-development" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Web Development</a>
-                <a href="/personal-branding" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Personal Branding</a>
+                <button onclick="toggleMobileDropdown('mobile-services')" class="flex items-center justify-between text-lg font-medium text-slate-700 hover:text-accent w-full text-left">
+                    Services
+                    <svg id="icon-mobile-services" class="w-4 h-4 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                </button>
+                <div id="mobile-services" class="hidden flex-col gap-2 mt-2">
+                    <a href="/public-relations" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Public Relations</a>
+                    <a href="/social-media-management" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Social Media Management</a>
+                    <a href="/event-organizer" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Event Organizer</a>
+                    <a href="/crisis-management" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Crisis Management</a>
+                    <a href="/web-development" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Web Development</a>
+                    <a href="/personal-branding" class="pl-4 text-base text-slate-600 hover:text-accent">&bull; Personal Branding</a>
+                </div>
             </div>
 
             <a href="/case-study" class="text-lg font-medium text-slate-700 hover:text-accent">Case Study</a>
@@ -226,6 +236,20 @@
                 h3.style.transform = 'none';
             }
         });
+
+        function toggleMobileDropdown(id) {
+            var el = document.getElementById(id);
+            var icon = document.getElementById('icon-' + id);
+            if(el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                el.classList.add('flex');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                el.classList.add('hidden');
+                el.classList.remove('flex');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
 
         // ── Navbar sticky ────────────────────────────────────────
         const nav = document.getElementById('main-nav');
