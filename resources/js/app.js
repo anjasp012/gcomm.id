@@ -8,41 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
   gsap.registerPlugin(ScrollTrigger);
 
   // ──────────────────────────────────────────────────────────
-  // 0. SMOOTH PAGE TRANSITIONS (Next.js style enter/exit)
+  // 0. SMOOTH PAGE ENTRANCE
   // ──────────────────────────────────────────────────────────
-  gsap.from('main', {
+  gsap.from('body > *', {
     opacity: 0,
-    y: 15,
-    duration: 0.6,
+    duration: 0.5,
     ease: 'power2.out',
-    clearProps: 'opacity,y',
-  });
-
-  document.querySelectorAll('a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      // Intercept internal links for exit animation
-      if (
-        this.hostname === window.location.hostname &&
-        this.pathname !== window.location.pathname &&
-        !this.hasAttribute('download') &&
-        this.getAttribute('target') !== '_blank' &&
-        !this.href.includes('#')
-      ) {
-        e.preventDefault();
-        const targetUrl = this.href;
-        
-        // Fast exit on main content only
-        gsap.to('main', {
-          opacity: 0,
-          y: -10,
-          duration: 0.2,
-          ease: 'power1.in',
-          onComplete: () => {
-            window.location.href = targetUrl;
-          }
-        });
-      }
-    });
+    clearProps: 'opacity',
   });
 
   // ──────────────────────────────────────────────────────────
