@@ -8,13 +8,40 @@ document.addEventListener('DOMContentLoaded', () => {
   gsap.registerPlugin(ScrollTrigger);
 
   // ──────────────────────────────────────────────────────────
-  // 0. SMOOTH PAGE ENTRANCE
+  // 0. SMOOTH PAGE TRANSITIONS (Next.js style enter/exit)
   // ──────────────────────────────────────────────────────────
   gsap.from('body > *', {
     opacity: 0,
+    y: 12,
     duration: 0.5,
     ease: 'power2.out',
-    clearProps: 'opacity',
+    clearProps: 'opacity,y',
+  });
+
+  document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      // Intercept internal links for exit animation
+      if (
+        this.hostname === window.location.hostname &&
+        this.pathname !== window.location.pathname &&
+        !this.hasAttribute('download') &&
+        this.getAttribute('target') !== '_blank' &&
+        !this.href.includes('#')
+      ) {
+        e.preventDefault();
+        const targetUrl = this.href;
+        
+        gsap.to('body > *', {
+          opacity: 0,
+          y: -12,
+          duration: 0.35,
+          ease: 'power2.in',
+          onComplete: () => {
+            window.location.href = targetUrl;
+          }
+        });
+      }
+    });
   });
 
   // ──────────────────────────────────────────────────────────
