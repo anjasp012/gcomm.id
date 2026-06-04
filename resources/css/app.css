@@ -99,6 +99,10 @@
 }
 
 /* Transparent top navbar colors for all pages */
+#main-nav:not(.nav-scrolled) a:not(.bg-accent),
+#main-nav:not(.nav-scrolled) button {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
 
 #main-nav:not(.nav-scrolled) a:not(.bg-accent):hover,
 #main-nav:not(.nav-scrolled) button:hover {
@@ -126,12 +130,15 @@
   background-color: #ffffff !important;
 }
 
-/* Fix dropdown menu text — must be visible (white bg dropdown) */
-#main-nav:not(.nav-scrolled) div.absolute a {
+/* Fix dropdown menu and mobile menu text — must be visible (white bg dropdown) */
+#main-nav:not(.nav-scrolled) div.absolute a,
+#main-nav:not(.nav-scrolled) #mobile-menu a,
+#main-nav:not(.nav-scrolled) #mobile-menu span {
   color: #475569 !important;
 }
 
-#main-nav:not(.nav-scrolled) div.absolute a:hover {
+#main-nav:not(.nav-scrolled) div.absolute a:hover,
+#main-nav:not(.nav-scrolled) #mobile-menu a:hover {
   color: #046bd2 !important;
   background-color: #f8fafc !important;
 }

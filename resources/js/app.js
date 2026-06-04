@@ -273,14 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ──────────────────────────────────────────────────────────
   // 13. CURSOR GLOW (desktop only)
   // ──────────────────────────────────────────────────────────
-  if (window.innerWidth > 768) {
-    const glow = document.createElement('div');
-    glow.id = 'cursor-glow';
-    document.body.appendChild(glow);
-    document.addEventListener('mousemove', (e) => {
-      gsap.to(glow, { left: e.clientX, top: e.clientY, duration: 0.55, ease: 'power2.out' });
-    });
-  }
+  // Removed from app.js because layout.blade.php handles it via rAF for better performance without conflict.
 
   // ──────────────────────────────────────────────────────────
   // 14. HORIZONTAL SCROLL REVEAL for section headings (.reveal-left)
