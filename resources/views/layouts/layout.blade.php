@@ -211,7 +211,7 @@
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-12 pt-8 border-t border-slate-200 flex flex-col justify-center items-center text-center text-xs text-slate-500">
             <p>&copy; {{ date('Y') }} gcomm.id. All rights reserved.</p>
         </div>
     </footer>
