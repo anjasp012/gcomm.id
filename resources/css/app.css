@@ -1,0 +1,334 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+  --color-primary: #f8fafc;
+  --color-accent: #046bd2; /* Gcomm Corporate Blue */
+  --color-gold: #2563eb;   /* Gcomm blue highlight */
+  --color-dark-gray: #f1f5f9;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Glassmorphism utility for Light Theme */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(4, 107, 210, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(4, 107, 210, 0.08);
+}
+
+.glass-dark {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Dotted grid layout overlay for Light Theme */
+.hero-grid {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+}
+
+.hero-grid-dots {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+}
+
+/* Transparent top navbar colors for all pages */
+#main-nav:not(.nav-scrolled) a:not(.bg-accent),
+#main-nav:not(.nav-scrolled) button {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+#main-nav:not(.nav-scrolled) a:not(.bg-accent):hover,
+#main-nav:not(.nav-scrolled) button:hover {
+  color: #38bdf8 !important; /* light blue accent on hover */
+}
+#main-nav:not(.nav-scrolled) svg {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+#main-nav:not(.nav-scrolled) a.bg-accent {
+  background-color: transparent !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.5) !important;
+  color: #ffffff !important;
+}
+#main-nav:not(.nav-scrolled) a.bg-accent:hover {
+  background-color: #ffffff !important;
+  color: #0f172a !important; /* slate-900 */
+}
+#main-nav:not(.nav-scrolled) #mobile-menu-btn span {
+  background-color: #ffffff !important;
+}
+
+/* Fix dropdown menu text — must be visible (white bg dropdown) */
+#main-nav:not(.nav-scrolled) div.absolute a {
+  color: #475569 !important;
+}
+#main-nav:not(.nav-scrolled) div.absolute a:hover {
+  color: #046bd2 !important;
+  background-color: #f8fafc !important;
+}
+
+/* Scrolled state — solid white navbar */
+#main-nav.nav-scrolled {
+  background-color: rgba(248, 250, 252, 0.92) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6) !important;
+}
+#main-nav.nav-scrolled a:not(.bg-accent),
+#main-nav.nav-scrolled button {
+  color: #334155 !important;
+}
+#main-nav.nav-scrolled a.bg-accent {
+  background-color: #046bd2 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+/* ============================================================
+   PREMIUM ANIMATION UTILITIES v2
+   ============================================================ */
+
+/* ── Cursor Glow ─────────────────────────────────────────── */
+#cursor-glow {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(4,107,210,0.10) 0%, transparent 68%);
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s ease;
+  top: 0; left: 0;
+  mix-blend-mode: multiply;
+}
+
+/* ── Typing cursor blink ─────────────────────────────────── */
+.typewriter::after {
+  content: '|';
+  margin-left: 2px;
+  color: #046bd2;
+  animation: blink 0.7s step-end infinite;
+}
+.typewriter-once::after {
+  content: '|';
+  margin-left: 1px;
+  color: inherit;
+  opacity: 0.7;
+  animation: blink 0.6s step-end infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ── Page load fade ──────────────────────────────────────── */
+@keyframes pageLoad {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+body { animation: pageLoad 0.5s ease-out both; }
+
+/* ── Tilt card 3D ────────────────────────────────────────── */
+.tilt-card {
+  transform-style: preserve-3d;
+  will-change: transform;
+  position: relative;
+}
+.card-shine {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 2;
+  transition: background 0.15s ease;
+}
+
+/* ── Shimmer CTA button ──────────────────────────────────── */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,0.28) 50%, transparent 65%);
+  transform: translateX(-120%);
+  transition: transform 0.65s ease;
+}
+.shimmer:hover::after { transform: translateX(120%); }
+
+/* ── Animated text gradient ──────────────────────────────── */
+.text-gradient-animate {
+  background: linear-gradient(270deg, #046bd2, #38bdf8, #046bd2);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 4s ease infinite;
+}
+@keyframes gradientShift {
+  0%   { background-position: 0%   50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0%   50%; }
+}
+
+/* ── Hero animated mesh background ──────────────────────── */
+.hero-mesh {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 20% 30%, rgba(4,107,210,0.18) 0%, transparent 55%),
+              radial-gradient(ellipse at 80% 70%, rgba(56,189,248,0.12) 0%, transparent 55%);
+  background-size: 200% 200%;
+  animation: meshMove 10s ease-in-out infinite alternate;
+  pointer-events: none;
+  z-index: 1;
+}
+@keyframes meshMove {
+  0%   { background-position: 0% 0%;   }
+  100% { background-position: 100% 100%; }
+}
+
+/* ── Glowing accent pill badge ──────────────────────────── */
+.glow-badge {
+  box-shadow: 0 0 0 1px rgba(4,107,210,0.3), 0 0 16px rgba(4,107,210,0.2);
+  animation: badgePulse 2.5s ease-in-out infinite;
+}
+@keyframes badgePulse {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(4,107,210,0.3), 0 0 14px rgba(4,107,210,0.18); }
+  50%       { box-shadow: 0 0 0 2px rgba(4,107,210,0.5), 0 0 28px rgba(4,107,210,0.30); }
+}
+
+/* ── Floating ambient animation ─────────────────────────── */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-14px); }
+}
+.float-slow { animation: floatSlow 5s ease-in-out infinite; }
+
+/* ── Clip-path reveal utility ────────────────────────────── */
+.reveal-wipe { clip-path: inset(0 100% 0 0); }
+
+/* ── Line draw ───────────────────────────────────────────── */
+.line-draw {
+  transform-origin: left center;
+  display: block;
+}
+
+/* ── Image reveal ────────────────────────────────────────── */
+.img-reveal { clip-path: inset(0 0 100% 0); }
+
+/* ── Scramble hover heading ──────────────────────────────── */
+.scramble-hover {
+  cursor: default;
+  transition: color 0.2s;
+}
+.scramble-hover:hover { color: #046bd2; }
+
+/* ── Magnetic button wrapper ─────────────────────────────── */
+.magnetic { display: inline-block; will-change: transform; }
+
+/* ── Stats number glow ───────────────────────────────────── */
+.stat-number {
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 30px rgba(4,107,210,0.4);
+}
+
+/* ── Glass card enhanced hover ───────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass:hover {
+  background: rgba(255, 255, 255, 0.97);
+  border-color: rgba(4, 107, 210, 0.25);
+  transform: translateY(-5px);
+  box-shadow: 0 16px 40px rgba(4,107,210,0.10), 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* ── Scroll progress bar ─────────────────────────────────── */
+#scroll-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2.5px;
+  background: linear-gradient(90deg, #046bd2, #38bdf8);
+  z-index: 9998;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.1s linear;
+  width: 100%;
+  box-shadow: 0 0 8px rgba(4,107,210,0.5);
+}
+
+/* ── Underline nav link grow ─────────────────────────────── */
+.nav-link-hover {
+  position: relative;
+}
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 1.5px;
+  background: #046bd2;
+  transition: width 0.28s ease;
+}
+.nav-link-hover:hover::after { width: 100%; }
+
+/* ── marquee ─────────────────────────────────────────────── */
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
