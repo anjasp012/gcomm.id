@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // ──────────────────────────────────────────────────────────
   // 0. SMOOTH PAGE TRANSITIONS (Next.js style enter/exit)
   // ──────────────────────────────────────────────────────────
-  gsap.from('body > *', {
+  gsap.from('main', {
     opacity: 0,
-    y: 12,
-    duration: 0.5,
+    y: 15,
+    duration: 0.6,
     ease: 'power2.out',
     clearProps: 'opacity,y',
   });
@@ -31,11 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const targetUrl = this.href;
         
-        gsap.to('body > *', {
+        // Fast exit on main content only
+        gsap.to('main', {
           opacity: 0,
-          y: -12,
-          duration: 0.35,
-          ease: 'power2.in',
+          y: -10,
+          duration: 0.2,
+          ease: 'power1.in',
           onComplete: () => {
             window.location.href = targetUrl;
           }
