@@ -212,21 +212,7 @@
 }
 
 /* ── Page load fade ──────────────────────────────────────── */
-@keyframes pageLoad {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-body {
-  animation: pageLoad 0.5s ease-out both;
-}
+/* Handled by GSAP in app.js. CSS animation removed to prevent 'transform' on body breaking position:fixed */
 
 /* ── Tilt card 3D ────────────────────────────────────────── */
 .tilt-card {
