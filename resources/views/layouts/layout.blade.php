@@ -216,6 +216,13 @@
         </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 z-[90] w-12 h-12 flex items-center justify-center rounded-full bg-accent text-white shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-[#035ab2] hover:-translate-y-1 hover:shadow-xl focus:outline-none" aria-label="Back to top">
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+
     <!-- Mobile Menu + Navbar Sticky + Cursor + Scroll Bar -->
     <script>
         document.getElementById('mobile-menu-btn').addEventListener('click', function() {
@@ -278,6 +285,22 @@
             const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
             if (maxScroll > 0) progressBar.style.transform = 'scaleX(' + (scrolled / maxScroll) + ')';
         }, { passive: true });
+
+        // ── Back to Top Button ───────────────────────────────────
+        const backToTopBtn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                backToTopBtn.classList.add('opacity-100', 'pointer-events-auto');
+            } else {
+                backToTopBtn.classList.remove('opacity-100', 'pointer-events-auto');
+                backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+            }
+        }, { passive: true });
+        
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
 
         // ── Cursor glow (desktop only) ───────────────────────────
         if (window.innerWidth > 768) {
