@@ -14,7 +14,7 @@
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
         <!-- Smooth bottom gradient fade to transition into the light body section -->
-        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#f8fafc] to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute inset-x-0 bottom-0 h-72 z-10 pointer-events-none" style="background: linear-gradient(to top, #ffffff 40%, transparent 100%);"></div>
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
@@ -56,14 +56,11 @@
         <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
             <!-- Title Badge -->
             <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-white/10 md:pr-6">
-                <span class="text-xs font-extrabold uppercase tracking-widest text-accent whitespace-nowrap">OUR VALUED CLIENTS</span>
+                <span class="text-xs font-extrabold uppercase tracking-widest text-white whitespace-nowrap">OUR VALUED CLIENTS</span>
             </div>
             
-            <!-- Marquee Track Wrapper with Gradient Fades -->
+            <!-- Marquee Track Wrapper -->
             <div class="flex-grow overflow-hidden relative flex items-center w-full">
-                <!-- Left & Right Gradient Fades for Premium Look -->
-                <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none"></div>
-                <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none"></div>
                 
                 <div class="animate-marquee flex items-center gap-8 py-2">
                     @for ($i = 0; $i < 2; $i++)
