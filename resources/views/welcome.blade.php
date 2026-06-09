@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Hero Section with Background Video (Light Mode / Dark Hero) -->
-<section class="relative min-h-[110vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden hero-grid pt-32 pb-24 bg-[#f8fafc]">
+<section class="relative min-h-[110vh] flex flex-col justify-between items-center text-center px-6 overflow-hidden hero-grid pt-32 pb-0 bg-[#f8fafc]">
     <!-- Background Video -->
     <div class="absolute inset-0 z-0 overflow-hidden bg-slate-950">
         <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-85 scale-110 transition-transform duration-700">
@@ -14,7 +14,7 @@
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
         <!-- Smooth bottom gradient fade to transition into the light body section -->
-        <div class="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-[#e2e8f0] z-10 pointer-events-none"></div>
+        <div class="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-[#f8fafc] via-[#f8fafc]/80 to-transparent z-10 pointer-events-none"></div>
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
@@ -50,36 +50,36 @@
             </a>
         </div>
     </div>
-</section>
 
-<!-- Inline Client Marquee -->
-<div class="bg-gradient-to-b from-[#e2e8f0] to-[#f8fafc] py-14 overflow-hidden relative">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
-        <!-- Title Badge -->
-        <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-slate-300 md:pr-6">
-            <span class="text-xs font-extrabold uppercase tracking-widest text-accent whitespace-nowrap">OUR VALUED CLIENTS</span>
-        </div>
-        
-        <!-- Marquee Track Wrapper with Gradient Fades -->
-        <div class="flex-grow overflow-hidden relative flex items-center w-full">
-            <!-- Left & Right Gradient Fades for Premium Look -->
-            <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-[#e2e8f0] to-transparent z-10 pointer-events-none"></div>
-            <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-[#e2e8f0] to-transparent z-10 pointer-events-none"></div>
+    <!-- Inline Client Marquee -->
+    <div class="w-full z-10 py-10 overflow-hidden relative mt-16 md:mt-24">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
+            <!-- Title Badge -->
+            <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-slate-200 md:pr-6">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-accent whitespace-nowrap">OUR VALUED CLIENTS</span>
+            </div>
             
-            <div class="animate-marquee flex items-center gap-8 py-2">
-                @for ($i = 0; $i < 2; $i++)
-                <div class="flex items-center gap-4">
-                    @for ($j = 1; $j <= 15; $j++)
-                    <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-200/50 flex items-center justify-center p-4 hover:scale-105 hover:shadow-xs transition-all duration-300">
-                        <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
+            <!-- Marquee Track Wrapper with Gradient Fades -->
+            <div class="flex-grow overflow-hidden relative flex items-center w-full">
+                <!-- Left & Right Gradient Fades for Premium Look -->
+                <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-[#f8fafc] to-transparent z-10 pointer-events-none"></div>
+                <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-[#f8fafc] to-transparent z-10 pointer-events-none"></div>
+                
+                <div class="animate-marquee flex items-center gap-8 py-2">
+                    @for ($i = 0; $i < 2; $i++)
+                    <div class="flex items-center gap-4">
+                        @for ($j = 1; $j <= 15; $j++)
+                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-4 hover:scale-105 hover:shadow-xs transition-all duration-300">
+                            <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
+                        </div>
+                        @endfor
                     </div>
                     @endfor
                 </div>
-                @endfor
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <section class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
     <div class="flex flex-col gap-4 mb-16 reveal">

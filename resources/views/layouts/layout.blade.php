@@ -187,7 +187,6 @@
                     <li><a href="/about-gcomm" class="hover:text-accent transition-colors">About Us</a></li>
                     <li><a href="/case-study" class="hover:text-accent transition-colors">Case Study</a></li>
                     <li><a href="/news" class="hover:text-accent transition-colors">Insight</a></li>
-                    <li><a href="/career" class="hover:text-accent transition-colors">Career</a></li>
                     <li><a href="/get-in-touch" class="hover:text-accent transition-colors">Contact Us</a></li>
                 </ul>
             </div>
