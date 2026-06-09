@@ -63,6 +63,19 @@
                             <p>
                                 <strong>Scope of Work:</strong> We managed SKK Migas’s multi-platform digital ecosystem (including Instagram, Facebook, Twitter/X, Threads, YouTube, and TikTok). Enhancing two-way interaction through digital activation (such as interactive quizzes and 'Temu Netizen' community gatherings), managing live on-site coverage, and optimizing targeted digital ads.
                             </p>
+                            <!-- Social Media Channels -->
+                            <div class="flex items-center gap-3 mt-2">
+                                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-1">Official Channels:</span>
+                                <a href="https://www.instagram.com/humasskkmigas/" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Instagram">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                                </a>
+                                <a href="https://www.facebook.com/skkmigas" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Facebook">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                                </a>
+                                <a href="https://x.com/humasskkmigas" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Twitter">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="border-t border-slate-100 pt-6 mt-6">
@@ -92,31 +105,55 @@
                 </div>
             </div>
 
-            <!-- Project 2: Kemenlu -->
+            <!-- Project 2: Ditjen Amerop -->
             <div class="glass p-8 sm:p-12 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 flex flex-col gap-6 justify-between">
                     <div>
-                        <span class="text-xs font-bold uppercase tracking-widest text-accent">Kementerian Luar Negeri RI</span>
-                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Disseminating Digital Diplomacy</h2>
+                        <span class="text-xs font-bold uppercase tracking-widest text-accent">Ditjen Amerop Kementerian Luar Negeri</span>
+                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Government & Public Diplomacy</h2>
                         <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
                             <p>
-                                <strong>Description:</strong> The Ministry of Foreign Affairs of the Republic of Indonesia (Kemlu RI) is responsible for conducting foreign relations. They wanted to spread awareness about diplomacy and international affairs to Indonesian citizens through creative social media channels.
+                                <strong>Description:</strong> The Directorate General of American and European Affairs (Ditjen Amerop) is a strategic component of the Ministry of Foreign Affairs of the Republic of Indonesia. Our primary focus is to elevate Indonesia's digital diplomacy by translating complex geopolitical updates, bilateral agreements and diplomatic engagements into engaging, visually striking, and high-impact digital narratives.
                             </p>
                             <p>
-                                <strong>Problem:</strong> Kemlu RI's social media accounts struggled to attract public engagement. They needed to make policies, events, and foreign achievements transparent and relatable, so citizens could assess the impact of diplomacy.
+                                <strong>Scope of Work:</strong> We managed Ditjen Amerop’s digital diplomacy and public outreach across the American and European regions by conducting in-depth research and strategic editorial planning aligned with Indonesia's foreign policy objectives.
                             </p>
+                            <!-- Social Media Channels -->
+                            <div class="flex items-center gap-3 mt-2">
+                                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-1">Official Channels:</span>
+                                <a href="https://www.instagram.com/ditjen_amerop/" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Instagram">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="border-t border-slate-100 pt-6 mt-6">
-                        <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-2">Key Metric Result</span>
-                        <span class="text-4xl font-display font-black text-[#0d81c8]">386,982 Views</span>
+                        <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">3.162</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Instagram Follower Growth</span>
+                            </div>
+                            <div>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">3.45%</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Peak engagement rate</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="lg:col-span-5 grid grid-cols-2 gap-4">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement.jpg" alt="Kemlu CS 1" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-1.jpg" alt="Kemlu CS 2" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-2.jpg" alt="Kemlu CS 3" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-3.jpg" alt="Kemlu CS 4" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <a href="https://www.instagram.com/p/DYrCI1WGph0/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement.jpg" alt="Ditjen Amerop 1" class="w-full h-full object-cover aspect-square">
+                    </a>
+                    <a href="https://www.instagram.com/p/DYFtD8pEVrI/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-1.jpg" alt="Ditjen Amerop 2" class="w-full h-full object-cover aspect-square">
+                    </a>
+                    <a href="https://www.instagram.com/reel/DLCUqw6hiDW/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-2.jpg" alt="Ditjen Amerop 3" class="w-full h-full object-cover aspect-square">
+                    </a>
+                    <a href="https://www.instagram.com/ditjen_amerop/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-3.jpg" alt="Ditjen Amerop 4" class="w-full h-full object-cover aspect-square">
+                    </a>
                 </div>
             </div>
 
