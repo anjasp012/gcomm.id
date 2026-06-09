@@ -55,13 +55,13 @@
                 <div class="lg:col-span-7 flex flex-col gap-6 justify-between">
                     <div>
                         <span class="text-xs font-bold uppercase tracking-widest text-accent">SKK Migas</span>
-                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Industries</h2>
+                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Engagement</h2>
                         <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
                             <p>
-                                <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) is tasked with managing upstream oil and gas business activities in Indonesia under Cooperation Contracts (KKS). Our primary focus is to transform complex industrial data into human-centric narratives to boost public engagement and strengthen societal trust.
+                                <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) manages upstream oil and gas business activities under Cooperation Contracts.
                             </p>
                             <p>
-                                <strong>Scope of Work:</strong> We managed SKK Migas’s multi-platform digital ecosystem (including Instagram, Facebook, Twitter/X, Threads, YouTube, and TikTok). Enhancing two-way interaction through digital activation (such as interactive quizzes and 'Temu Netizen' community gatherings), managing live on-site coverage, and optimizing targeted digital ads.
+                                <strong>Problem:</strong> SKK Migas faced challenges in effectively communicating with and engaging their target audiences. We optimized their social media networks as cost-effective channels to build community engagement and trust.
                             </p>
                         </div>
                     </div>
@@ -69,26 +69,20 @@
                         <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
                         <div class="grid grid-cols-2 gap-4">
                             <div>
-                                <span class="text-3xl font-display font-black text-[#0d81c8] block">118.201</span>
-                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Instagram Follower Growth</span>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">79.7K</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Followers reached</span>
                             </div>
                             <div>
-                                <span class="text-3xl font-display font-black text-[#0d81c8] block">650K+</span>
-                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Peak single-month performance</span>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">11.9%</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Engagement Rate</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="lg:col-span-5 grid grid-cols-3 gap-4">
-                    <a href="https://www.instagram.com/p/DYONKT7GAkm/?img_index=1" target="_blank" class="col-span-2 row-span-2 block aspect-square overflow-hidden rounded-3xl shadow-lg group">
-                        <img src="{{ asset('images/skk_ig_1.png') }}" alt="SKK Migas Instagram Infographic" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-105">
-                    </a>
-                    <a href="https://www.instagram.com/p/DWxUEUAD82t/" target="_blank" class="col-span-1 block aspect-square overflow-hidden rounded-2xl shadow-md group">
-                        <img src="{{ asset('images/skk_ig_2.png') }}" alt="SKK Migas Instagram Digital Activation Quiz" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-105">
-                    </a>
-                    <a href="https://www.instagram.com/reel/DT1-6H6Ehcz/" target="_blank" class="col-span-1 block aspect-square overflow-hidden rounded-2xl shadow-md group">
-                        <img src="{{ asset('images/skk_ig_3.png') }}" alt="SKK Migas Instagram Temu Netizen Reel" class="w-full h-full object-cover transition-all duration-500 group-hover:scale-105">
-                    </a>
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
                 </div>
             </div>
 
