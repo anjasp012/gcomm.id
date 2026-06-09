@@ -14,7 +14,7 @@
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
         <!-- Smooth bottom gradient fade to transition into the light body section -->
-        <div class="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent via-slate-950/80 to-[#f8fafc] z-10 pointer-events-none"></div>
+        <div class="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-slate-950 z-10 pointer-events-none"></div>
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
@@ -53,24 +53,24 @@
 </section>
 
 <!-- Inline Client Marquee -->
-<div class="bg-gradient-to-b from-[#f8fafc] to-white py-10 overflow-hidden relative">
+<div class="bg-gradient-to-b from-slate-950 via-slate-950 to-[#f8fafc] py-14 overflow-hidden relative">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
         <!-- Title Badge -->
-        <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-slate-200 md:pr-6">
+        <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-slate-800 md:pr-6">
             <span class="text-xs font-extrabold uppercase tracking-widest text-accent whitespace-nowrap">OUR VALUED CLIENTS</span>
         </div>
         
         <!-- Marquee Track Wrapper with Gradient Fades -->
         <div class="flex-grow overflow-hidden relative flex items-center w-full">
             <!-- Left & Right Gradient Fades for Premium Look -->
-            <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
-            <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none"></div>
             
             <div class="animate-marquee flex items-center gap-8 py-2">
                 @for ($i = 0; $i < 2; $i++)
                 <div class="flex items-center gap-4">
                     @for ($j = 1; $j <= 15; $j++)
-                    <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-4 hover:scale-105 hover:shadow-xs transition-all duration-300">
+                    <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-800/20 flex items-center justify-center p-4 hover:scale-105 hover:shadow-xs transition-all duration-300">
                         <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
                     </div>
                     @endfor
