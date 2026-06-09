@@ -89,15 +89,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:col-span-5 grid grid-cols-2 gap-4">
-                    <a href="https://www.instagram.com/p/DYONKT7GAkm/?img_index=1" target="_blank" class="col-span-2 block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="w-full h-48 object-cover">
+                <div class="lg:col-span-5 grid grid-cols-3 gap-3">
+                    <a href="https://www.instagram.com/p/DYONKT7GAkm/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="w-full aspect-[4/5] object-cover">
                     </a>
                     <a href="https://www.instagram.com/p/DWxUEUAD82t/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="w-full h-full object-cover aspect-square">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="w-full aspect-[4/5] object-cover">
                     </a>
                     <a href="https://www.instagram.com/reel/DT1-6H6Ehcz/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="w-full h-full object-cover aspect-square">
+                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="w-full aspect-[4/5] object-cover">
                     </a>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                                 <strong>Description:</strong> The Directorate General of American and European Affairs (Ditjen Amerop) is a strategic component of the Ministry of Foreign Affairs of the Republic of Indonesia. Our primary focus is to elevate Indonesia's digital diplomacy by translating complex geopolitical updates, bilateral agreements and diplomatic engagements into engaging, visually striking, and high-impact digital narratives.
                             </p>
                             <p>
-                                <strong>Scope of Work:</strong> We managed Ditjen Amerop’s digital diplomacy and public outreach across the American and European regions by conducting in-depth research and strategic editorial planning aligned with Indonesia's foreign policy objectives.
+                                <strong>Scope of Work:</strong> We enhanced Ditjen Amerop’s digital diplomacy and public outreach across the American and European regions by conducting in-depth research and strategic editorial planning aligned with Indonesia's foreign policy objectives.
                             </p>
                             <!-- Social Media Channels -->
                             <div class="flex items-center gap-3 mt-2">
