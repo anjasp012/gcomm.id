@@ -18,7 +18,7 @@
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
-    <div class="max-w-5xl mx-auto z-10 flex flex-col items-center -mt-24">
+    <div class="max-w-5xl mx-auto z-10 flex flex-col items-center">
         <!-- Subtitle badge -->
         <span class="hero-badge opacity-0 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/20 bg-white/5 text-white text-xs font-semibold uppercase tracking-widest mb-8">
             <span class="w-1.5 h-1.5 rounded-full bg-accent animate-ping"></span>
