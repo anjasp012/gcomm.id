@@ -226,7 +226,7 @@
         </button>
 
         <!-- WhatsApp Floating Button -->
-        <a href="https://wa.me/6281284946638?text=Hallo.%20I%20want%20more%20information%20about%20your%20service%21" target="_blank" class="w-14 h-14 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg pointer-events-auto transition-all duration-300 hover:scale-110 hover:shadow-xl animate-float focus:outline-none" aria-label="Chat with us on WhatsApp">
+        <a href="https://wa.me/6281284946638?text=Hallo.%20I%20want%20more%20information%20about%20your%20service%21" target="_blank" class="w-20 h-12 flex items-center justify-center rounded-full bg-[#25D366] text-black shadow-lg pointer-events-auto transition-all duration-300 hover:scale-110 hover:shadow-xl animate-float focus:outline-none" aria-label="Chat with us on WhatsApp">
             <span class="text-lg font-bold leading-none">OK</span>
         </a>
     </div>
