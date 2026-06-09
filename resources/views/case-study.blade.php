@@ -50,7 +50,43 @@
     <div>
         <!-- TAB: SOCIAL MEDIA MANAGEMENT -->
         <div x-show="activeTab === 'social'" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-4" x-transition:enter-end="opacity-100 transform translate-y-0" class="flex flex-col gap-16">
-            <!-- Project 1: Kemenlu -->
+            <!-- Project 1: SKK Migas -->
+            <div class="glass p-8 sm:p-12 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-12 gap-10">
+                <div class="lg:col-span-7 flex flex-col gap-6 justify-between">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-accent">SKK Migas</span>
+                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Engagement</h2>
+                        <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
+                            <p>
+                                <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) manages upstream oil and gas business activities under Cooperation Contracts.
+                            </p>
+                            <p>
+                                <strong>Problem:</strong> SKK Migas faced challenges in effectively communicating with and engaging their target audiences. We optimized their social media networks as cost-effective channels to build community engagement and trust.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-100 pt-6 mt-6">
+                        <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">79.7K</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Followers reached</span>
+                            </div>
+                            <div>
+                                <span class="text-3xl font-display font-black text-[#0d81c8] block">11.9%</span>
+                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Engagement Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 grid grid-cols-3 gap-4">
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
+                </div>
+            </div>
+
+            <!-- Project 2: Kemenlu -->
             <div class="glass p-8 sm:p-12 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-12 gap-10">
                 <div class="lg:col-span-7 flex flex-col gap-6 justify-between">
                     <div>
@@ -118,41 +154,6 @@
                 </div>
             </div>
 
-            <!-- Project 3: SKK Migas -->
-            <div class="glass p-8 sm:p-12 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-12 gap-10">
-                <div class="lg:col-span-7 flex flex-col gap-6 justify-between">
-                    <div>
-                        <span class="text-xs font-bold uppercase tracking-widest text-accent">SKK Migas</span>
-                        <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Engagement</h2>
-                        <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
-                            <p>
-                                <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) manages upstream oil and gas business activities under Cooperation Contracts.
-                            </p>
-                            <p>
-                                <strong>Problem:</strong> SKK Migas faced challenges in effectively communicating with and engaging their target audiences. We optimized their social media networks as cost-effective channels to build community engagement and trust.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="border-t border-slate-100 pt-6 mt-6">
-                        <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <span class="text-3xl font-display font-black text-[#0d81c8] block">79.7K</span>
-                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Followers reached</span>
-                            </div>
-                            <div>
-                                <span class="text-3xl font-display font-black text-[#0d81c8] block">11.9%</span>
-                                <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Engagement Rate</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:col-span-5 grid grid-cols-3 gap-4">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="col-span-1 w-full h-full object-cover rounded-2xl aspect-square shadow">
-                </div>
-            </div>
         </div>
 
         <!-- TAB: CRISIS & REPUTATION MANAGEMENT -->
@@ -281,4 +282,46 @@
 
 <!-- AlpineJS CDN for easy tabs implementation -->
 <script src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
+<!-- Image Lightbox Modal -->
+<div id="cs-lightbox" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.85);backdrop-filter:blur(8px);cursor:zoom-out;justify-content:center;align-items:center;" onclick="this.style.display='none'">
+    <button onclick="event.stopPropagation();document.getElementById('cs-lightbox').style.display='none'" style="position:absolute;top:24px;right:24px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px);transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">&times;</button>
+    <img id="cs-lightbox-img" src="" alt="" style="max-width:90vw;max-height:90vh;object-fit:contain;border-radius:12px;box-shadow:0 25px 50px rgba(0,0,0,0.5);animation:csLbIn 0.3s ease;">
+</div>
+
+<style>
+    .glass img {
+        cursor: pointer;
+        transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.35s ease;
+    }
+    .glass img:hover {
+        transform: scale(1.08);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+        z-index: 10;
+        position: relative;
+    }
+    @keyframes csLbIn {
+        from { opacity: 0; transform: scale(0.85); }
+        to { opacity: 1; transform: scale(1); }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.glass img').forEach(function(img) {
+            img.addEventListener('click', function() {
+                var lb = document.getElementById('cs-lightbox');
+                var lbImg = document.getElementById('cs-lightbox-img');
+                lbImg.src = this.src;
+                lbImg.alt = this.alt;
+                lb.style.display = 'flex';
+            });
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                document.getElementById('cs-lightbox').style.display = 'none';
+            }
+        });
+    });
+</script>
+
 @endsection

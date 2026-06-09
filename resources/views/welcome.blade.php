@@ -43,7 +43,7 @@
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row items-center gap-4">
             <a href="/get-in-touch" class="hero-btn opacity-0 translate-y-4 w-full sm:w-auto px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-accent hover:bg-[#035ab2] transition-all shadow-lg shadow-accent/25 shimmer">
-                Free Reputation Audit
+                Free Consultation
             </a>
             <a href="/case-study" class="hero-btn opacity-0 translate-y-4 w-full sm:w-auto px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest text-slate-200 border border-white/30 hover:border-white/70 hover:text-white transition-all">
                 Case Studies &rarr;
