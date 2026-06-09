@@ -51,46 +51,11 @@
         <!-- TAB: SOCIAL MEDIA MANAGEMENT -->
         <div x-show="activeTab === 'social'" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-4" x-transition:enter-end="opacity-100 transform translate-y-0" class="flex flex-col gap-8">
             <!-- Project 1: SKK Migas -->
-            <div class="glass p-8 sm:p-12 rounded-3xl bg-white flex flex-col gap-8">
-                <!-- Content Row -->
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-                    <div class="lg:col-span-8 flex flex-col gap-6 justify-between">
-                        <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-accent">SKK Migas</span>
-                            <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Industries</h2>
-                            <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
-                                <p>
-                                    <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) is tasked with managing upstream oil and gas business activities in Indonesia under Cooperation Contracts (KKS). Our primary focus is to transform complex industrial data into human-centric narratives to boost public engagement and strengthen societal trust.
-                                </p>
-                                <p>
-                                    <strong>Scope of Work:</strong> We managed SKK Migas's multi-platform digital ecosystem (including Instagram, Facebook, Twitter/X, Threads, YouTube, and TikTok). Enhancing two-way interaction through digital activation (such as interactive quizzes and 'Temu Netizen' community gatherings), managing live on-site coverage, and optimizing targeted digital ads.
-                                </p>
-                                <!-- Social Media Channels -->
-                                <div class="flex items-center gap-3 mt-2">
-                                    <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-1">Official Channels:</span>
-                                    <a href="https://www.instagram.com/humasskkmigas/" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Instagram">
-                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                                    </a>
-                                    <a href="https://x.com/humasskkmigas" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Twitter">
-                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-t border-slate-100 pt-6 mt-6">
-                            <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div>
-                                    <span class="text-3xl font-display font-black text-[#0d81c8] block">118.201</span>
-                                    <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Instagram Follower Growth</span>
-                                </div>
-                                <div>
-                                    <span class="text-3xl font-display font-black text-[#0d81c8] block">650K+</span>
-                                    <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Peak single-month performance</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="glass p-8 sm:p-12 rounded-3xl bg-white flex flex-col gap-6">
+                <!-- Header -->
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-accent">SKK Migas</span>
+                    <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Upstream Oil & Gas Industries</h2>
                 </div>
                 <!-- Photo Grid: 3 boxes side by side -->
                 <div class="grid grid-cols-3 gap-4">
@@ -103,6 +68,39 @@
                     <a href="https://www.instagram.com/reel/DT1-6H6Ehcz/" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
                         <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="w-full aspect-square object-cover">
                     </a>
+                </div>
+                <!-- Description -->
+                <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
+                    <p>
+                        <strong>Description:</strong> Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi (SKK Migas) is tasked with managing upstream oil and gas business activities in Indonesia under Cooperation Contracts (KKS). Our primary focus is to transform complex industrial data into human-centric narratives to boost public engagement and strengthen societal trust.
+                    </p>
+                    <p>
+                        <strong>Scope of Work:</strong> We managed SKK Migas's multi-platform digital ecosystem (including Instagram, Facebook, Twitter/X, Threads, YouTube, and TikTok). Enhancing two-way interaction through digital activation (such as interactive quizzes and 'Temu Netizen' community gatherings), managing live on-site coverage, and optimizing targeted digital ads.
+                    </p>
+                    <!-- Social Media Channels -->
+                    <div class="flex items-center gap-3 mt-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mr-1">Official Channels:</span>
+                        <a href="https://www.instagram.com/humasskkmigas/" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Instagram">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://x.com/humasskkmigas" target="_blank" class="w-8 h-8 rounded-full bg-[#f1f5f9] hover:bg-[#2d56a3] hover:text-white flex items-center justify-center text-slate-600 transition-all duration-300" aria-label="Twitter">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- Key Results -->
+                <div class="border-t border-slate-100 pt-6">
+                    <span class="text-xs uppercase tracking-widest font-bold text-slate-400 block mb-3">Key Results Summary</span>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <span class="text-3xl font-display font-black text-[#0d81c8] block">118.201</span>
+                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Instagram Follower Growth</span>
+                        </div>
+                        <div>
+                            <span class="text-3xl font-display font-black text-[#0d81c8] block">650K+</span>
+                            <span class="text-[10px] text-slate-500 uppercase font-bold tracking-wider">Peak single-month performance</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
