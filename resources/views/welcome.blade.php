@@ -4,17 +4,17 @@
 
 @section('content')
 <!-- Hero Section with Background Video (Light Mode / Dark Hero) -->
-<section class="relative min-h-[90vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden hero-grid pt-32 pb-24 bg-[#f8fafc]">
+<section class="relative min-h-[110vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden hero-grid pt-32 pb-24 bg-[#f8fafc]">
     <!-- Background Video -->
     <div class="absolute inset-0 z-0 overflow-hidden bg-slate-950">
-        <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-85">
+        <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-85 scale-110 transition-transform duration-700">
             <source src="{{ asset('videos/header.mp4') }}" type="video/mp4">
             <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200" class="w-full h-full object-cover" alt="PR Agency Gcomm Background">
         </video>
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
         <!-- Smooth bottom gradient fade to transition into the light body section -->
-        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white via-white/55 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent via-slate-950/80 to-[#f8fafc] z-10 pointer-events-none"></div>
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
@@ -53,7 +53,7 @@
 </section>
 
 <!-- Inline Client Marquee -->
-<div class="bg-white py-10 overflow-hidden relative">
+<div class="bg-gradient-to-b from-[#f8fafc] to-white py-10 overflow-hidden relative">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
         <!-- Title Badge -->
         <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-slate-200 md:pr-6">
