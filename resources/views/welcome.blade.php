@@ -78,7 +78,7 @@
     </div>
 </section>
 
-<section class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+<section class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 bg-white">
     <div class="flex flex-col gap-4 mb-16 reveal">
         <div>
             <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
