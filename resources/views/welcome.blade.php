@@ -54,11 +54,6 @@
     <!-- Inline Client Marquee -->
     <div class="w-full z-10 py-10 overflow-hidden relative mt-16 md:mt-24">
         <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col md:flex-row items-center gap-6">
-            <!-- Title Badge -->
-            <div class="flex-shrink-0 flex items-center gap-3 md:border-r border-white/10 md:pr-6">
-                <span class="text-xs font-extrabold uppercase tracking-widest text-white whitespace-nowrap">OUR VALUED CLIENTS</span>
-            </div>
-            
             <!-- Marquee Track Wrapper -->
             <div class="flex-grow overflow-hidden relative flex items-center w-full">
                 
@@ -66,7 +61,7 @@
                     @for ($i = 0; $i < 2; $i++)
                     <div class="flex items-center gap-4">
                         @for ($j = 1; $j <= 15; $j++)
-                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-4 hover:scale-105 hover:shadow-xs transition-all duration-300">
+                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-2 hover:scale-105 hover:shadow-xs transition-all duration-300">
                             <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
                         </div>
                         @endfor
