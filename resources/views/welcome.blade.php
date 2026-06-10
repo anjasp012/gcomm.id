@@ -86,7 +86,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
         <!-- Unit 1 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
+        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
             <div class="flex flex-col gap-4">
                 <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">PR & Reputation</h3>
@@ -97,7 +97,7 @@
              </div>
 
         <!-- Unit 2 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
+        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
             <div class="flex flex-col gap-4">
                 <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">Event & Live Stream</h3>
@@ -108,7 +108,7 @@
         </div>
 
         <!-- Unit 3 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
+        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
             <div class="flex flex-col gap-4">
                 <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">IT & Media Analytics</h3>
