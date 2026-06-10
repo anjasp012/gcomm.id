@@ -111,17 +111,7 @@
                         <span class="text-xs font-bold uppercase tracking-widest text-accent">Ditjen Amerop Kementerian Luar Negeri</span>
                         <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Government & Public Diplomacy</h2>
                        
-                              <div class="grid grid-cols-3 gap-4">
-                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="/images/kementerian.webp" alt="SKK Migas 1" class="w-full aspect-square object-cover">
-                    </a>
-                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="/images/kementerian2.webp" alt="SKK Migas 2" class="w-full aspect-square object-cover">
-                    </a>
-                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="/images/kementerian3.webp" alt="SKK Migas 3" class="w-full aspect-square object-cover">
-                    </a>
-                </div>
+                           
                         <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
                             <p>
                                 <strong>Description:</strong> The Directorate General of American and European Affairs (Ditjen Amerop) is a strategic component of the Ministry of Foreign Affairs of the Republic of Indonesia. Our primary focus is to elevate Indonesia's digital diplomacy by translating complex geopolitical updates, bilateral agreements and diplomatic engagements into engaging, visually striking, and high-impact digital narratives.
@@ -173,6 +163,17 @@
                 <div>
                     <span class="text-xs font-bold uppercase tracking-widest text-accent">Kementerian Pertahanan Republik Indonesia (Kemhan RI)</span>
                     <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Government, National Security & Public Affairs</h2>
+                       <div class="grid grid-cols-3 gap-4">
+                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
+                        <img src="/images/kementerian.webp" alt="SKK Migas 1" class="w-full aspect-square object-cover">
+                    </a>
+                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
+                        <img src="/images/kementerian2.webp" alt="SKK Migas 2" class="w-full aspect-square object-cover">
+                    </a>
+                    <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
+                        <img src="/images/kementerian3.webp" alt="SKK Migas 3" class="w-full aspect-square object-cover">
+                    </a>
+                </div>
                     <div class="flex flex-col gap-4 text-slate-600 font-light leading-relaxed">
                         <p>
                             <strong>Description:</strong> The Ministry of Defense of the Republic of Indonesia (Kemhan RI) is responsible for national defense management, military readiness, and safeguarding the country's sovereignty. Our primary focus is to elevate Kemhan’s digital landscape by translating complex national security updates into clear, high-impact, and trusted public narratives.
