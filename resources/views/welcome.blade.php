@@ -60,7 +60,7 @@
                 <div class="animate-marquee flex items-center gap-8 py-2">
                     @for ($i = 0; $i < 2; $i++)
                     <div class="flex items-center gap-4">
-                        @for ($j = 1; $j <= 15; $j++)
+                        @for ($j = 1; $j <= 13; $j++)
                         <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-1 hover:scale-105 hover:shadow-xs transition-all duration-300">
                             <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
                         </div>
