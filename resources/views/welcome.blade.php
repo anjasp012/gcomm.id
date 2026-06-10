@@ -61,7 +61,7 @@
                     @for ($i = 0; $i < 2; $i++)
                     <div class="flex items-center gap-4">
                         @for ($j = 1; $j <= 15; $j++)
-                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-2 hover:scale-105 hover:shadow-xs transition-all duration-300">
+                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-0.5 hover:scale-105 hover:shadow-xs transition-all duration-300">
                             <img src="{{ asset('images/client_logo_' . $j . '.png') }}" alt="Client Logo {{ $j }}" class="max-w-full max-h-full object-contain">
                         </div>
                         @endfor
@@ -94,7 +94,7 @@
                     Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
                 </p>
             </div>
-            <img src="{{ asset('images/logo.png') }}" alt="Gcomm PR" class="h-8 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
+            <img src="{{ asset('images/logo.png') }}" alt="Gcomm PR" class="h-11 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
         </div>
 
         <!-- Unit 2 -->
@@ -106,7 +106,7 @@
                     Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
                 </p>
             </div>
-            <img src="{{ asset('images/kreasi_logo.png') }}" alt="Kreasi Milenia" class="h-8 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
+            <img src="{{ asset('images/kreasi_logo.png') }}" alt="Kreasi Milenia" class="h-11 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
         </div>
 
         <!-- Unit 3 -->
@@ -119,8 +119,8 @@
                 </p>
             </div>
             <div class="flex items-center gap-4 self-start">
-                <img src="{{ asset('images/gagasan_logo.png') }}" alt="Gagasan Tech" class="h-8 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
-                <img src="{{ asset('images/division_3.png') }}" alt="Sinemarch" class="h-8 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
+                <img src="{{ asset('images/gagasan_logo.png') }}" alt="Gagasan Tech" class="h-11 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
+                <img src="{{ asset('images/division_3.png') }}" alt="Sinemarch" class="h-11 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
             </div>
         </div>
     </div>
