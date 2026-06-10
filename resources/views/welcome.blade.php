@@ -88,7 +88,7 @@
         <!-- Unit 1 -->
         <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
             <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01 &bull; GCOMM PR</span>
+                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">PR & Reputation</h3>
                 <p class="text-slate-500 text-sm font-light leading-relaxed">
                     Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
@@ -99,7 +99,7 @@
         <!-- Unit 2 -->
         <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
             <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02 &bull; KREASI MILENIA</span>
+                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">Event & Live Stream</h3>
                 <p class="text-slate-500 text-sm font-light leading-relaxed">
                     Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
@@ -110,10 +110,10 @@
         <!-- Unit 3 -->
         <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
             <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03 &bull; SINEMARCH & TECH</span>
+                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03</span>
                 <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">IT & Media Analytics</h3>
                 <p class="text-slate-500 text-sm font-light leading-relaxed">
-                    Empowered by Gagasan Tech for software/web development and Smart Monalisa for media monitoring tools and public relations insights.
+                    Empowered by software/web development and Smart Monalisa for media monitoring tools and public relations insights.
                 </p>
             </div>
          </div>
