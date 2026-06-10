@@ -163,7 +163,7 @@
                 <div>
                     <span class="text-xs font-bold uppercase tracking-widest text-accent">Kementerian Pertahanan Republik Indonesia (Kemhan RI)</span>
                     <h2 class="font-display font-extrabold text-3xl text-slate-900 mt-2 mb-6">Government, National Security & Public Affairs</h2>
-                       <div class="grid grid-cols-3 gap-4">
+                       <div class="grid grid-cols-3 gap-4 mb-6">
                     <a href="" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
                         <img src="/images/kementerian.webp" alt="SKK Migas 1" class="w-full aspect-square object-cover">
                     </a>
