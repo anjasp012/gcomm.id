@@ -22,7 +22,7 @@
         <!-- Subtitle badge -->
         <span class="hero-badge opacity-0 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/20 bg-white/5 text-white text-xs font-semibold uppercase tracking-widest mb-8">
             <span class="w-1.5 h-1.5 rounded-full bg-accent animate-ping"></span>
-            Public Relations & Reputation Architect
+            Your 360° Comunnications Partner
         </span>
  
         <!-- Main Headline (Gcomm Tagline with GSAP reveal wrappers) -->
@@ -37,7 +37,7 @@
  
         <!-- Short Description (Gcomm Mission) -->
         <p class="hero-desc opacity-0 translate-y-4 max-w-3xl text-slate-300 text-base sm:text-lg font-light leading-relaxed mb-12 typewriter-once" data-speed="18" data-delay="1100">
-            We focus on empowering institutions, brands, and individuals by turning aspirations and ideas into tangible outcomes. We specialize in shaping narratives, protecting reputations, and fostering clarity and credibility.
+            For ever a decade, we have integrated public relations, media intellegence, digital, content, and stakeholder engagement to help organizations build trust, shape perception, and drive impact.
         </p>
  
         <!-- CTA Buttons -->
@@ -94,8 +94,7 @@
                     Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
                 </p>
             </div>
-            <img src="{{ asset('images/logo.png') }}" alt="Gcomm PR" class="h-10 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
-        </div>
+             </div>
 
         <!-- Unit 2 -->
         <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between min-h-[320px]">
@@ -106,7 +105,6 @@
                     Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
                 </p>
             </div>
-            <img src="{{ asset('images/kreasi_logo.png') }}" alt="Kreasi Milenia" class="h-10 w-auto object-contain self-start grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
         </div>
 
         <!-- Unit 3 -->
@@ -118,11 +116,7 @@
                     Empowered by Gagasan Tech for software/web development and Smart Monalisa for media monitoring tools and public relations insights.
                 </p>
             </div>
-            <div class="flex items-center gap-4 self-start">
-                <img src="{{ asset('images/gagasan_logo.png') }}" alt="Gagasan Tech" class="h-10 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
-                <img src="{{ asset('images/division_3.png') }}" alt="Sinemarch" class="h-10 w-auto object-contain grayscale group-hover:grayscale-0 transition-all opacity-60 group-hover:opacity-100">
-            </div>
-        </div>
+         </div>
     </div>
 </section>
 
