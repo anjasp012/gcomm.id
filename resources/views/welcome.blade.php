@@ -14,7 +14,7 @@
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
         <!-- Smooth bottom gradient fade to transition into the light body section -->
-        <div class="absolute inset-x-0 bottom-0 h-72 z-10 pointer-events-none" style="background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%);"></div>
+        <div class="absolute inset-x-0 bottom-0 h-72 z-10 pointer-events-none" style="background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.5) 60%, transparent 100%);"></div>
     </div>
  
     <!-- Hero Content (Spora layout with Gcomm Copy) -->
