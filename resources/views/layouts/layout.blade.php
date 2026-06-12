@@ -16,6 +16,11 @@
     <meta property="og:description" content="@yield('meta_description', 'Gcomm.id is a leading Public Relations & Integrated Communications Agency in Indonesia.')">
     <meta property="og:image" content="{{ asset('images/wp-uploads/LOGO-GCOMM-2023.png') }}">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
