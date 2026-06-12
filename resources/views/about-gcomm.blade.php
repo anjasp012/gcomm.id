@@ -100,72 +100,52 @@
 </section>
 
 <!-- Specialized Units / Ecosystem -->
-<section class="py-24 bg-white border-b border-slate-200/50">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="text-xs uppercase tracking-widest font-bold text-accent">Our Ecosystem</span>
-            <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900 mt-2 mb-4">SPECIALIZED UNITS</h2>
-            <p class="text-slate-500 text-sm sm:text-base font-light leading-relaxed">
-                Beyond our core agency services, we are proud to operate several specialized units that expand the impact of our communication ecosystem.
+
+<section class="bg-white">
+    <div class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div class="flex flex-col gap-4 mb-16 reveal">
+            <div>
+                <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
+                <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2">OUR SPECIALIZED DIVISIONS</h2>
+            </div>
+            <p class="max-w-2xl text-slate-500 text-sm sm:text-base font-light leading-relaxed typewriter-once" data-speed="20">
+                Operating specialized business units under Gcomm to provide holistic communication, event execution, IT software solutions, and training programs.
             </p>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
             <!-- Unit 1 -->
-            <div class="glass p-8 rounded-3xl bg-[#f8fafc]/50 flex flex-col h-full">
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-accent mb-6">
-                    <!-- Event SVG -->
-                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">PR & Reputation</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
+                    </p>
                 </div>
-                <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Kreasi Milenia</h3>
-                <p class="text-slate-600 text-xs sm:text-sm font-light leading-relaxed flex-grow">
-                    Our specialist unit for creative and strategic event execution, turning concepts into memorable live experiences.
-                </p>
-            </div>
-
+                 </div>
+    
             <!-- Unit 2 -->
-            <div class="glass p-8 rounded-3xl bg-[#f8fafc]/50 flex flex-col h-full">
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-accent mb-6">
-                    <!-- Academic SVG -->
-                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">Event & Live Stream</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
+                    </p>
                 </div>
-                <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Publikata</h3>
-                <p class="text-slate-600 text-xs sm:text-sm font-light leading-relaxed flex-grow">
-                    A dedicated platform for public training, corporate communication workshops, and professional development classes.
-                </p>
             </div>
-
+    
             <!-- Unit 3 -->
-            <div class="glass p-8 rounded-3xl bg-[#f8fafc]/50 flex flex-col h-full">
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-accent mb-6">
-                    <!-- Data/Analytics SVG -->
-                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h2a2 2 0 002-2zm12 0v-3a2 2 0 00-2-2h-2a2 2 0 00-2 2v3a2 2 0 002 2h2a2 2 0 002-2zm0 0v-7a2 2 0 00-2-2h-2a2 2 0 00-2 2v9a2 2 0 002 2h2a2 2 0 002-2z" />
-                    </svg>
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">IT & Media Analytics</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Empowered by software/web development and Smart Monalisa for media monitoring tools and public relations insights.
+                    </p>
                 </div>
-                <h3 class="font-display font-bold text-xl text-slate-900 mb-3">G-Riset Data</h3>
-                <p class="text-slate-600 text-xs sm:text-sm font-light leading-relaxed flex-grow">
-                    Our media monitoring, market research, and analytics team providing crucial intelligence for communications strategies.
-                </p>
-            </div>
-
-            <!-- Unit 4 -->
-            <div class="glass p-8 rounded-3xl bg-[#f8fafc]/50 flex flex-col h-full">
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-accent mb-6">
-                    <!-- Tech/Code SVG -->
-                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                    </svg>
-                </div>
-                <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Gagasan Tech</h3>
-                <p class="text-slate-600 text-xs sm:text-sm font-light leading-relaxed flex-grow">
-                    IT software house, specialized systems developer, and hardware & software solution provider.
-                </p>
-            </div>
+             </div>
         </div>
     </div>
 </section>

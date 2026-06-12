@@ -73,50 +73,52 @@
     </div>
 </section>
 
-<section class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 bg-white">
-    <div class="flex flex-col gap-4 mb-16 reveal">
-        <div>
-            <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
-            <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2">OUR SPECIALIZED DIVISIONS</h2>
-        </div>
-        <p class="max-w-2xl text-slate-500 text-sm sm:text-base font-light leading-relaxed typewriter-once" data-speed="20">
-            Operating specialized business units under Gcomm to provide holistic communication, event execution, IT software solutions, and training programs.
-        </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
-        <!-- Unit 1 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
-            <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01</span>
-                <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">PR & Reputation</h3>
-                <p class="text-slate-500 text-sm font-light leading-relaxed">
-                    Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
-                </p>
+<section class="bg-white">
+    <div class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div class="flex flex-col gap-4 mb-16 reveal">
+            <div>
+                <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
+                <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2">OUR SPECIALIZED DIVISIONS</h2>
             </div>
+            <p class="max-w-2xl text-slate-500 text-sm sm:text-base font-light leading-relaxed typewriter-once" data-speed="20">
+                Operating specialized business units under Gcomm to provide holistic communication, event execution, IT software solutions, and training programs.
+            </p>
+        </div>
+    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
+            <!-- Unit 1 -->
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/01</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">PR & Reputation</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Strategic public relations, diseminasi press release to 500+ national media networks, media monitoring, and crisis mitigation control.
+                    </p>
+                </div>
+                 </div>
+    
+            <!-- Unit 2 -->
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">Event & Live Stream</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Unit 3 -->
+            <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
+                <div class="flex flex-col gap-4">
+                    <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03</span>
+                    <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">IT & Media Analytics</h3>
+                    <p class="text-slate-500 text-sm font-light leading-relaxed">
+                        Empowered by software/web development and Smart Monalisa for media monitoring tools and public relations insights.
+                    </p>
+                </div>
              </div>
-
-        <!-- Unit 2 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
-            <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/02</span>
-                <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">Event & Live Stream</h3>
-                <p class="text-slate-500 text-sm font-light leading-relaxed">
-                    Planning and executing hybrid MICE events, offline conventions, media gatherings, and full stage production scaling from local to international levels.
-                </p>
-            </div>
         </div>
-
-        <!-- Unit 3 -->
-        <div class="glass tilt-card p-8 rounded-3xl flex flex-col gap-6 group bg-white justify-between">
-            <div class="flex flex-col gap-4">
-                <span class="text-xs font-semibold text-accent uppercase tracking-widest">/03</span>
-                <h3 class="font-display font-bold text-2xl text-slate-900 group-hover:text-accent transition-colors">IT & Media Analytics</h3>
-                <p class="text-slate-500 text-sm font-light leading-relaxed">
-                    Empowered by software/web development and Smart Monalisa for media monitoring tools and public relations insights.
-                </p>
-            </div>
-         </div>
     </div>
 </section>
 
