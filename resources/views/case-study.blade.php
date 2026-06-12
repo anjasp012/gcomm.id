@@ -60,13 +60,13 @@
                 <!-- Photo Grid: 3 boxes side by side -->
                 <div class="grid grid-cols-3 gap-4">
                     <a href="https://www.instagram.com/p/DYONKT7GAkm/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas 1" class="w-full aspect-square object-cover">
+                        <img src="{{ asset('images/wp-uploads/image-29.jpg') }}" alt="SKK Migas 1" class="w-full aspect-square object-cover">
                     </a>
                     <a href="https://www.instagram.com/p/DWxUEUAD82t/" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-30.jpg" alt="SKK Migas 2" class="w-full aspect-square object-cover">
+                        <img src="{{ asset('images/wp-uploads/image-30.jpg') }}" alt="SKK Migas 2" class="w-full aspect-square object-cover">
                     </a>
                     <a href="https://www.instagram.com/reel/DT1-6H6Ehcz/" target="_blank" class="block overflow-hidden rounded-2xl shadow-md hover:scale-[1.03] hover:shadow-xl transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/image-31.jpg" alt="SKK Migas 3" class="w-full aspect-square object-cover">
+                        <img src="{{ asset('images/wp-uploads/image-31.jpg') }}" alt="SKK Migas 3" class="w-full aspect-square object-cover">
                     </a>
                 </div>
                 <!-- Description -->
@@ -144,16 +144,16 @@
                 </div>
                 <div class="lg:col-span-5 grid grid-cols-2 gap-4">
                     <a href="https://www.instagram.com/p/DYrCI1WGph0/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement.jpg" alt="Ditjen Amerop 1" class="w-full h-full object-cover aspect-square">
+                        <img src="{{ asset('images/wp-uploads/img-casestudy-sosmedmanagement.jpg') }}" alt="Ditjen Amerop 1" class="w-full h-full object-cover aspect-square">
                     </a>
                     <a href="https://www.instagram.com/p/DYFtD8pEVrI/?img_index=1" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-1.jpg" alt="Ditjen Amerop 2" class="w-full h-full object-cover aspect-square">
+                        <img src="{{ asset('images/wp-uploads/img-casestudy-media-kemenlu-1.jpg') }}" alt="Ditjen Amerop 2" class="w-full h-full object-cover aspect-square">
                     </a>
                     <a href="https://www.instagram.com/reel/DLCUqw6hiDW/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-2.jpg" alt="Ditjen Amerop 3" class="w-full h-full object-cover aspect-square">
+                        <img src="{{ asset('images/wp-uploads/img-casestudy-media-kemenlu-2.jpg') }}" alt="Ditjen Amerop 3" class="w-full h-full object-cover aspect-square">
                     </a>
                     <a href="https://www.instagram.com/ditjen_amerop/" target="_blank" class="block overflow-hidden rounded-2xl shadow hover:scale-105 transition-all duration-300">
-                        <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-media-kemenlu-3.jpg" alt="Ditjen Amerop 4" class="w-full h-full object-cover aspect-square">
+                        <img src="{{ asset('images/wp-uploads/img-casestudy-media-kemenlu-3.jpg') }}" alt="Ditjen Amerop 4" class="w-full h-full object-cover aspect-square">
                     </a>
                 </div>
             </div>
@@ -242,9 +242,9 @@
                     </div>
                 </div>
                 <div class="lg:col-span-5 grid grid-cols-3 gap-4">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement-ombudsman.jpg" alt="Ombudsman CS 1" class="col-span-3 w-full h-48 object-cover rounded-2xl shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-27.jpg" alt="Ombudsman CS 2" class="col-span-1.5 w-full h-32 object-cover rounded-2xl shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-28.jpg" alt="Ombudsman CS 3" class="col-span-1.5 w-full h-32 object-cover rounded-2xl shadow">
+                    <img src="{{ asset('images/wp-uploads/img-casestudy-sosmedmanagement-ombudsman.jpg') }}" alt="Ombudsman CS 1" class="col-span-3 w-full h-48 object-cover rounded-2xl shadow">
+                    <img src="{{ asset('images/wp-uploads/image-27.jpg') }}" alt="Ombudsman CS 2" class="col-span-1.5 w-full h-32 object-cover rounded-2xl shadow">
+                    <img src="{{ asset('images/wp-uploads/image-28.jpg') }}" alt="Ombudsman CS 3" class="col-span-1.5 w-full h-32 object-cover rounded-2xl shadow">
                 </div>
             </div>
 
@@ -269,8 +269,8 @@
                     </div>
                 </div>
                 <div class="lg:col-span-5 grid grid-cols-2 gap-4">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-20-1-1.jpg" alt="SIG CS 1" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-35.jpg" alt="SIG CS 2" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="{{ asset('images/wp-uploads/image-20-1-1.jpg') }}" alt="SIG CS 1" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
+                    <img src="{{ asset('images/wp-uploads/image-35.jpg') }}" alt="SIG CS 2" class="w-full h-full object-cover rounded-2xl aspect-square shadow">
                 </div>
             </div>
 
@@ -333,7 +333,7 @@
                     </div>
                 </div>
                 <div class="lg:col-span-5">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-20-1-768x384.jpg" alt="BSI CS" class="w-full h-64 object-cover rounded-2xl shadow">
+                    <img src="{{ asset('images/wp-uploads/image-20-1-768x384.jpg') }}" alt="BSI CS" class="w-full h-64 object-cover rounded-2xl shadow">
                 </div>
             </div>
 
@@ -367,7 +367,7 @@
                     </div>
                 </div>
                 <div class="lg:col-span-5">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-34-1-1.jpg" alt="Protelindo CS" class="w-full h-64 object-cover rounded-2xl shadow">
+                    <img src="{{ asset('images/wp-uploads/image-34-1-1.jpg') }}" alt="Protelindo CS" class="w-full h-64 object-cover rounded-2xl shadow">
                 </div>
             </div>
         </div>

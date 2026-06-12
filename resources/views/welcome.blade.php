@@ -9,7 +9,7 @@
     <div class="absolute inset-0 z-0 overflow-hidden bg-slate-950">
         <video autoplay loop api="true" muted playsinline class="w-full h-full object-cover opacity-85 scale-110 transition-transform duration-700">
             <source src="{{ asset('videos/header.mp4') }}" type="video/mp4">
-            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200" class="w-full h-full object-cover" alt="PR Agency Gcomm Background">
+            <img src="{{ asset('images/header.png') }}" class="w-full h-full object-cover" alt="PR Agency Gcomm Background">
         </video>
         <!-- Dark overlay to ensure text readability -->
         <div class="absolute inset-0 bg-slate-950/65"></div>
@@ -135,7 +135,7 @@
             <!-- Case Study 1 -->
             <a href="/case-study?tab=social" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement.jpg" alt="Kementerian Luar Negeri RI" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/img-casestudy-sosmedmanagement.jpg') }}" alt="Kementerian Luar Negeri RI" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Social Media</span>
@@ -147,7 +147,7 @@
             <!-- Case Study 2 -->
             <a href="/case-study?tab=social" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/img-casestudy-sosmedmanagement-ombudsman.jpg" alt="Ombudsman Republik Indonesia" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/img-casestudy-sosmedmanagement-ombudsman.jpg') }}" alt="Ombudsman Republik Indonesia" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Social Media</span>
@@ -159,7 +159,7 @@
             <!-- Case Study 3 -->
             <a href="/case-study?tab=social" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-29.jpg" alt="SKK Migas" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/image-29.jpg') }}" alt="SKK Migas" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Social Media</span>
@@ -171,7 +171,7 @@
             <!-- Case Study 4 -->
             <a href="/case-study?tab=crisis" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-20-1-1.jpg" alt="PT Semen Indonesia Tbk" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/image-20-1-1.jpg') }}" alt="PT Semen Indonesia Tbk" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Crisis & Reputation</span>
@@ -183,7 +183,7 @@
             <!-- Case Study 5 -->
             <a href="/case-study?tab=research" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-20-1-768x384.jpg" alt="Bank Syariah Indonesia" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/image-20-1-768x384.jpg') }}" alt="Bank Syariah Indonesia" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Media Research</span>
@@ -195,7 +195,7 @@
             <!-- Case Study 6 -->
             <a href="/case-study?tab=research" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-1 transition-all duration-300">
                 <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                    <img src="https://gcomm.id/wp-content/uploads/2023/03/image-34-1-1.jpg" alt="PT Profesional Telekomunikasi Indonesia" class="w-full h-full object-cover transition-all duration-500">
+                    <img src="{{ asset('images/wp-uploads/image-34-1-1.jpg') }}" alt="PT Profesional Telekomunikasi Indonesia" class="w-full h-full object-cover transition-all duration-500">
                 </div>
                 <div class="p-6 flex flex-col gap-3 flex-grow">
                     <span class="text-xs font-semibold text-accent uppercase tracking-widest">Media Research</span>

@@ -14,7 +14,7 @@
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:title" content="@yield('title', 'gcomm.id | PR Agency Indonesia')">
     <meta property="og:description" content="@yield('meta_description', 'Gcomm.id is a leading Public Relations & Integrated Communications Agency in Indonesia.')">
-    <meta property="og:image" content="https://gcomm.id/wp-content/uploads/2024/04/LOGO-GCOMM-2023.png">
+    <meta property="og:image" content="{{ asset('images/wp-uploads/LOGO-GCOMM-2023.png') }}">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
