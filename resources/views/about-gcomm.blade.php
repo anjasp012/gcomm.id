@@ -103,7 +103,7 @@
 
 <section class="bg-white">
     <div class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div class="flex flex-col gap-4 mb-16 reveal">
+        <div class="flex flex-col justify-center gap-4 mb-16 reveal">
             <div>
                 <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
                 <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2">OUR SPECIALIZED DIVISIONS</h2>
@@ -148,6 +148,6 @@
              </div>
         </div>
     </div>
-</section>
+</section>  
 @endsection
 
