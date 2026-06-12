@@ -105,10 +105,10 @@
     <div class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div class="flex flex-col justify-center gap-4 mb-16 reveal">
             <div>
-                <span class="text-xs uppercase tracking-widest font-bold text-accent">Strategic Divisions</span>
-                <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2">OUR SPECIALIZED DIVISIONS</h2>
+                <span class="text-xs uppercase tracking-widest font-bold text-accent text-center">Strategic Divisions</span>
+                <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-slate-900 mt-2 text-center">OUR SPECIALIZED DIVISIONS</h2>
             </div>
-            <p class="max-w-2xl text-slate-500 text-sm sm:text-base font-light leading-relaxed typewriter-once" data-speed="20">
+            <p class="max-w-2xl text-slate-500 text-sm sm:text-base font-light leading-relaxed typewriter-once text-center" data-speed="20">
                 Operating specialized business units under Gcomm to provide holistic communication, event execution, IT software solutions, and training programs.
             </p>
         </div>
