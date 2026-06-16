@@ -45,7 +45,7 @@
                 </div>
                 
                 <!-- Download Prompt inside card -->
-                <a href="{{ asset('documents/COMPANY-PROFILE_GCOMM.id_2025.pdf') }}" target="_blank" class="w-full text-center py-3 bg-[#ea4335] text-white text-xs font-semibold uppercase tracking-wider rounded-xl hover:bg-[#d63225] transition-colors">
+                <a href="{{ asset('documents/COMPANY-PROFILE_GCOMM.id.pdf') }}" target="_blank" class="w-full text-center py-3 bg-[#ea4335] text-white text-xs font-semibold uppercase tracking-wider rounded-xl hover:bg-[#d63225] transition-colors">
                     Preview PDF
                 </a>
             </div>
@@ -71,7 +71,7 @@
             </div>
 
             <div class="flex flex-col sm:flex-row gap-4 mt-4">
-                <a href="{{ asset('documents/COMPANY-PROFILE_GCOMM.id_2025.pdf') }}" target="_blank" class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider text-white bg-accent hover:bg-[#035ab2] transition-colors shadow-lg hover:shadow-xl">
+                <a href="{{ asset('documents/COMPANY-PROFILE_GCOMM.id.pdf') }}" target="_blank" class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider text-white bg-accent hover:bg-[#035ab2] transition-colors shadow-lg hover:shadow-xl">
                     <!-- Download SVG Icon -->
                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
