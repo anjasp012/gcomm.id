@@ -25,6 +25,14 @@
 <!-- Combined Brand Logos -->
 <section class="py-24 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 animate-fade-in mb-12">
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center">
+        @if($clients->count() > 0)
+            @foreach($clients as $client)
+            <div class="glass p-3 rounded-2xl bg-white flex flex-col items-center justify-center h-32 group">
+                <img src="{{ \Illuminate\Support\Facades\Storage::url($client->logo_image) }}" alt="{{ $client->name }}" class="max-h-16 w-auto object-contain transition-all duration-300">
+                <span class="text-[10px] text-slate-400 mt-2 font-medium text-center hidden group-hover:block transition-all">{{ $client->name }}</span>
+            </div>
+            @endforeach
+        @else
         <!-- Ministry of Foreign Affairs (Kemlu) -->
         <div class="glass p-3 rounded-2xl bg-white flex flex-col items-center justify-center h-32 group">
             <img src="{{ asset('images/wp-uploads/1522126693_Kemlu-150x150.jpg') }}" alt="Ministry of Foreign Affairs" class="max-h-16 w-auto object-contain transition-all duration-300">
@@ -215,6 +223,7 @@
             <img src="{{ asset('images/wp-uploads/1522127023_JIS-150x150.jpg') }}" alt="JIS" class="max-h-16 w-auto object-contain transition-all duration-300">
             <span class="text-[10px] text-slate-400 mt-2 font-medium text-center hidden group-hover:block transition-all">Jakarta Intercultural School</span>
         </div>
+        @endif
     </div>
 </section>
 @endsection

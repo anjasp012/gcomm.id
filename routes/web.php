@@ -11,7 +11,9 @@ Route::get('/about-gcomm', function () {
 });
 
 Route::get('/our-experts-behind-the-success', function () {
-    return view('our-experts-behind-the-success');
+    return view('our-experts-behind-the-success', [
+        'experts' => \App\Models\Expert::all()
+    ]);
 });
 
 Route::get('/corporate-values', function () {
@@ -19,7 +21,9 @@ Route::get('/corporate-values', function () {
 });
 
 Route::get('/trusted-brands', function () {
-    return view('trusted-brands');
+    return view('trusted-brands', [
+        'clients' => \App\Models\Client::all()
+    ]);
 });
 
 Route::get('/our-company-profile', function () {
@@ -51,11 +55,21 @@ Route::get('/personal-branding', function () {
 });
 
 Route::get('/case-study', function () {
-    return view('case-study');
+    return view('case-study', [
+        'caseStudies' => \App\Models\CaseStudy::latest()->get()
+    ]);
 });
 
 Route::get('/news', function () {
-    return view('news');
+    return view('news', [
+        'newsList' => \App\Models\News::latest()->get()
+    ]);
+});
+
+Route::get('/news/{slug}', function ($slug) {
+    $news = \App\Models\News::where('slug', $slug)->firstOrFail();
+    $relatedNews = \App\Models\News::where('id', '!=', $news->id)->latest()->take(3)->get();
+    return view('news-detail', compact('news', 'relatedNews'));
 });
 
 Route::get('/get-in-touch', function () {
