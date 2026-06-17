@@ -121,18 +121,20 @@
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 reveal-stagger">
             @foreach($relatedNews as $item)
-            <a href="/news/{{ $item->slug }}" class="glass rounded-3xl overflow-hidden flex flex-col h-full bg-white group hover:-translate-y-2 transition-all duration-300 shadow-xl border border-slate-100">
-                @if($item->image)
-                    <div class="relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                        <img src="{{ \Illuminate\Support\Facades\Storage::url($item->image) }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" alt="{{ $item->title }}">
+            <a href="/news/{{ $item->slug }}" class="block glass p-8 rounded-3xl bg-white flex flex-col justify-between h-full hover:-translate-y-1 transition-transform duration-300 group shadow-sm border border-slate-100">
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-3 text-xs font-semibold text-accent uppercase tracking-wider">
+                        <span class="text-slate-400">{{ \Carbon\Carbon::parse($item->published_at ?? $item->created_at)->format('M j, Y') }}</span>
                     </div>
-                @endif
-                <div class="p-8 flex flex-col gap-4 flex-grow">
-                    <span class="text-xs font-bold text-accent uppercase tracking-widest">{{ \Carbon\Carbon::parse($item->published_at ?? $item->created_at)->format('F j, Y') }}</span>
-                    <hr class="border-slate-100 my-1">
-                    <h4 class="font-display font-bold text-xl text-slate-900 leading-tight group-hover:text-accent transition-colors">
-                        {{ Str::limit($item->title, 60) }}
-                    </h4>
+                    <h3 class="font-display font-bold text-xl text-slate-900 group-hover:text-accent transition-colors leading-snug">
+                        {{ $item->title }}
+                    </h3>
+                    <div class="text-slate-600 text-sm font-light leading-relaxed">
+                        {!! Str::limit(strip_tags($item->content), 120) !!}
+                    </div>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs text-slate-400">
+                    <span class="font-bold text-accent group-hover:underline">Baca Artikel &rarr;</span>
                 </div>
             </a>
             @endforeach
