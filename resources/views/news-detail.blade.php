@@ -114,14 +114,14 @@
                 <span class="text-xs font-bold text-accent uppercase tracking-widest">Baca Juga</span>
                 <h3 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900 mt-2">Artikel Terkait</h3>
             </div>
-            <a href="/news" class="px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider text-slate-600 bg-white border border-slate-200 hover:border-accent hover:text-accent transition-colors shadow-sm">
+            <a href="/news" class="px-6 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider text-slate-600 bg-white border border-slate-200 hover:border-accent hover:text-accent transition-colors">
                 Lihat Semua Insight
             </a>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 reveal-stagger">
             @foreach($relatedNews as $item)
-            <a href="/news/{{ $item->slug }}" class="block glass p-8 rounded-3xl bg-white flex flex-col justify-between h-full hover:-translate-y-1 transition-transform duration-300 group shadow-sm border border-slate-100">
+            <a href="/news/{{ $item->slug }}" class="block glass p-8 rounded-3xl bg-white flex flex-col justify-between h-full hover:-translate-y-1 transition-transform duration-300 group border border-slate-100">
                 <div class="flex flex-col gap-4">
                     <div class="flex items-center gap-3 text-xs font-semibold text-accent uppercase tracking-wider">
                         <span class="text-slate-400">{{ \Carbon\Carbon::parse($item->published_at ?? $item->created_at)->format('M j, Y') }}</span>
