@@ -76,7 +76,7 @@
         </div>
 
         <div class="pt-8 mt-4 text-center">
-            <a href="/contact-us" class="inline-block px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-accent hover:bg-[#035ab2] transition-colors shadow-lg shadow-accent/20">
+            <a href="/get-in-touch" class="inline-block px-8 py-4 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-accent hover:bg-[#035ab2] transition-colors shadow-lg shadow-accent/20">
                 Contact Our Crisis Desk &rarr;
             </a>
         </div>
