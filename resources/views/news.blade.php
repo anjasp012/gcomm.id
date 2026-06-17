@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center text-xs text-slate-400">
-                    <span class="font-bold text-accent group-hover:underline">Baca Artikel &rarr;</span>
+                    <span class="font-bold text-accent">Baca Artikel &rarr;</span>
                 </div>
             </a>
             @endforeach
