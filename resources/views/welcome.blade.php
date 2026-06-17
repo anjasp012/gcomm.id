@@ -61,7 +61,7 @@
                     @for ($i = 0; $i < 2; $i++)
                     <div class="flex items-center gap-4">
                         @foreach ($clients as $client)
-                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-3 hover:scale-105 hover:shadow-xs transition-all duration-300">
+                        <div class="flex-shrink-0 w-36 h-20 bg-white rounded-xl border border-slate-100 flex items-center justify-center p-1 hover:scale-105 hover:shadow-xs transition-all duration-300">
                             <img src="{{ \Illuminate\Support\Facades\Storage::url($client->logo_image) }}" alt="{{ $client->name }}" class="max-w-full max-h-full object-contain">
                         </div>
                         @endforeach
