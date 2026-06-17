@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'clients' => \App\Models\Client::all()
+    ]);
 });
 
 Route::get('/about-gcomm', function () {
