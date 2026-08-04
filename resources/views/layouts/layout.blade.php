@@ -32,6 +32,16 @@
 
     <!-- Styles & Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R1VMQ0GK33"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R1VMQ0GK33');
+</script>
 </head>
 <body class="bg-[#f8fafc] text-slate-900 font-sans min-h-screen flex flex-col antialiased selection:bg-accent selection:text-white overflow-x-hidden {{ request()->is('/') ? 'home-page' : '' }}">
 
